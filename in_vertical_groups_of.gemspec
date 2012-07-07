@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = InVerticalGroupsOf::VERSION
 
   gem.add_development_dependency "rake"
-  gem.add_dependency "active_support"
+  gem.add_dependency "active_support", ">= 2.3"
 end
